@@ -40,98 +40,124 @@ In this example, a `note` particle spawned with `instrument` set to `0` and `not
 ```json
 {
   "note": {
-    "variants": {
-      "instrument=0": {
+    "variants": [
+      {
+        "variant": {"instrument": 0},
         "texture": "minecraft:piano_note"
       },
-      "instrument=1": {
+      {
+        "variant": {"instrument": 1},
         "texture": "minecraft:bassdrum_note"
       },
-      "instrument=2": {
+      {
+        "variant": {"instrument": 2},
         "texture": "minecraft:snare_note"
       },
-      "instrument=3": {
+      {
+        "variant": {"instrument": 3},
         "texture": "minecraft:clicks_note"
       },
-      "instrument=4": {
+      {
+        "variant": {"instrument": 4},
         "texture": "minecraft:bassguitar_note"
       },
-      "note=0": {
+      {
+        "variant": {"note": [0, 24]},
         "color": "#55dd00"
       },
-      "note=1": {
+      {
+        "variant": {"note": 1},
         "color": "#7ec400"
       },
-      "note=2": {
+      {
+        "variant": {"note": 2},
         "color": "#a4a400"
       },
-      "note=3": {
+      {
+        "variant": {"note": 3},
         "color": "#c47e00"
       },
-      "note=4": {
+      {
+        "variant": {"note": 4},
         "color": "#dd5500"
       },
-      "note=5": {
+      {
+        "variant": {"note": 5},
         "color": "#ed2c00"
       },
-      "note=6": {
+      {
+        "variant": {"note": 6},
         "color": "#f30606"
       },
-      "note=7": {
+      {
+        "variant": {"note": 7},
         "color": "#ed002c"
       },
-      "note=8": {
+      {
+        "variant": {"note": 8},
         "color": "#dd0055"
       },
-      "note=9": {
+      {
+        "variant": {"note": 9},
         "color": "#c4007e"
       },
-      "note=10": {
+      {
+        "variant": {"note": 10},
         "color": "#a400a4"
       },
-      "note=11": {
+      {
+        "variant": {"note": 11},
         "color": "#7e00c4"
       },
-      "note=12": {
+      {
+        "variant": {"note": 12},
         "color": "#5500dd"
       },
-      "note=13": {
+      {
+        "variant": {"note": 13},
         "color": "#2c00ed"
       },
-      "note=14": {
+      {
+        "variant": {"note": 14},
         "color": "#0606f3"
       },
-      "note=15": {
+      {
+        "variant": {"note": 15},
         "color": "#002ced"
       },
-      "note=16": {
+      {
+        "variant": {"note": 16},
         "color": "#0055dd"
       },
-      "note=17": {
+      {
+        "variant": {"note": 17},
         "color": "#007ec4"
       },
-      "note=18": {
+      {
+        "variant": {"note": 18},
         "color": "#00a4a4"
       },
-      "note=19": {
+      {
+        "variant": {"note": 19},
         "color": "#00c47e"
       },
-      "note=20": {
+      {
+        "variant": {"note": 20},
         "color": "#00dd55"
       },
-      "note=21": {
+      {
+        "variant": {"note": 21},
         "color": "#00ed2c"
       },
-      "note=22": {
+      {
+        "variant": {"note": 22},
         "color": "#06f306"
       },
-      "note=23": {
+      {
+        "variant": {"note": 23},
         "color": "#2ced00"
-      },
-      "note=24": {
-        "color": "#55dd00"
-      },
-    }
+      }
+    ]
   }
 }
 ```
